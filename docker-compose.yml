@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: ci_registry_image:latest
+    ports:
+      - "5432:5432"
